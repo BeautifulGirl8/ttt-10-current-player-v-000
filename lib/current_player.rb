@@ -14,10 +14,9 @@ board.each do |spot|
   return turns_played
 end
 
-
 def current_player(board)
  number = turn_count(board)
- if number % 2 = 0
+ if number % 2 == 0
   return "X"
 else
   return "O"
